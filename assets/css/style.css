@@ -158,6 +158,11 @@ header nav div {
     width: 154px;
     background: rgba(62, 134, 245, 0.8);
     border-radius: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 55px;
 }
 
 .bulat {
@@ -177,4 +182,134 @@ header nav div {
 
 .text-biru {
     color: #3E86F5;
+}
+
+.rincian-jadwal .det-2 .fa-plane {
+    margin-left: 8px;
+}
+
+.rincian-jadwal .det-2 div:last-child .fa-plane {
+    transform: rotate(180deg);
+}
+
+/* speasial */
+.spesial {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.spesial h1 {
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spesial .tap {
+    width: 340px;
+    height: 66px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.spesial .tap div {
+    width: 100px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spesial .tap .active {
+    background: #3E86F5;
+    border-radius: 10px;
+    color: white;
+}
+
+.spesial .galeri {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.spesial .galeri .card {
+    width: 380px;
+    height: 457px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+}
+
+.spesial .galeri .card .img-thumb {
+    width: 293px;
+    height: 273px;
+    border-radius: 50px;
+}
+
+.spesial .galeri .card h1 {
+    font-size: 18px;
+    text-orientation: sideways;
+    writing-mode: vertical-lr;
+    letter-spacing: 0.5em;
+}
+
+.spesial .galeri .card .card-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    gap: 20px;
+}
+
+.spesial .card .ket {
+    margin-left: 54px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.badge-pink {
+    background-color: #FCDDEC;
+}
+.badge-ungu {
+    background-color: #F1F1FD;
+}
+
+.text-pink {
+    color: #F178B6;
+}
+.text-ungu {
+    color: #7879F1;
+}
+
+.kategori {
+    border-radius: 100px;
+    padding: 5px 20px;
+    margin-right: 12px;
+}
+
+.spesial .ket h3 {
+    font-size: 24px;
+}
+
+.spesial .ket div:last-child{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 19px;
+}
+
+.spesial .ket div:last-child  button{
+    width: 107px;
+    height: 47px;
+    background: #F2F6FF;
+    border-radius: 10px;
+    border: none;
 }
