@@ -254,7 +254,7 @@ header nav div {
     border-radius: 50px;
 }
 
-.spesial .galeri .card h1 {
+.spesial .galeri .card h2 {
     font-size: 18px;
     text-orientation: sideways;
     writing-mode: vertical-lr;
@@ -266,6 +266,7 @@ header nav div {
     justify-content: center;
     padding-top: 21px;
     gap: 20px;
+    align-items: center;
 }
 
 .spesial .card .ket {
@@ -312,4 +313,81 @@ header nav div {
     background: #F2F6FF;
     border-radius: 10px;
     border: none;
+}
+
+/* tips */
+.tips {
+    margin: 80px 130px;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.tips .img-tips {
+    background-image: url('../gambar/tips/tips-1.jfif');
+    background-size: cover;
+    background-position: center;
+    min-width: 480px;
+    height: 800px;  
+    border-radius: 75px;
+    position: relative;
+}
+
+.tips h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.tips p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.tips button {
+    background: #3E86F5;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    padding: 22px 34px;
+    font-size: 20px;
+}
+
+.tips .img-tips div {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.tips .img-tips h2 {
+    font-size: 36px;
+    margin: 0;
+}
+.tips .img-tips span {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.tips .img-tips div:first-child {
+    top: 377px;
+    left: -94px;
+    width: 174px;
+}
+
+.tips .img-tips div:nth-child(2) {
+    top: 56px;
+    left: 400px;
+    width: 180px;
+}
+
+
+.tips .img-tips div:nth-child(3) {
+    top: 534px;
+    left: 399px;
+    width: 174px;
 }
